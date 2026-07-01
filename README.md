@@ -26,7 +26,7 @@ Launch the tool from your desktop, select a folder or enter an extension, and cl
 
 ## ⬇️ Installation
 
-1. [**Download the Installer (.exe)**](Output/DefenderSafeZoneTool_Setup.exe) (or get the latest version from the [Releases](https://github.com/Thatseasy/defender-safe-zone/releases) page).
+1. [**Download the Installer (.exe)**](https://github.com/Thatseasy/defender-safe-zone/releases/latest/download/DefenderSafeZoneTool_Setup.exe) (or get the latest version from the [Releases](https://github.com/Thatseasy/defender-safe-zone/releases) page).
 2. Run the downloaded executable.
 3. Follow the setup instructions. The installer will automatically select your preferred language.
 4. Launch the application from your desktop!
