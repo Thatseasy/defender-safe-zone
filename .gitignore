@@ -1,0 +1,7 @@
+[Db]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
