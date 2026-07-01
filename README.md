@@ -1,48 +1,36 @@
-# Defender SafeZone Tool
+# <img src="Logo.png" width="30" /> Defender SafeZone Tool
 
-![Defender SafeZone Tool](screenshot.png)
+[![Download Latest Release](https://img.shields.io/github/v/release/Thatseasy/defender-safe-zone?label=Download%20Installer&style=for-the-badge&color=success)](https://github.com/Thatseasy/defender-safe-zone/releases/latest)
 
-A simple, fast, and multi-lingual graphical user interface to effortlessly manage Windows Defender exclusions. 
+> *Easily manage exclusions for Windows Defender without navigating through complex menus.*
 
-Windows Defender provides robust security, but adding exclusions (for example, for developer tools, build folders, or safe game modifications) via the standard Windows Security menus is deeply buried and tedious. **Defender SafeZone Tool** solves this by providing a clean, accessible interface directly on your desktop.
+## 🌟 Highlights
 
-## Features
+- **Instant Exclusions:** Quickly exclude entire directories (e.g. `C:\Work`) or file extensions (e.g. `.exe`) from Defender scans.
+- **One-Click Management:** View and remove your current Defender exclusions in a clean list.
+- **16 Languages Supported:** Automatically adapts to your system language (English, German, Chinese, Spanish, etc.).
 
-- **Add Target Folders:** Instantly exclude entire directories (e.g. `C:\Dev` or `C:\Work`) from Defender scans.
-- **Add File Extensions:** Globally exclude specific file types (e.g., `.exe`, `.dll`, `.iso`) from being scanned anywhere on your system.
-- **Manage Exclusions:** View all your current Defender exclusions in a clean list and easily remove them with a single click.
-- **16 Languages Supported:** The tool and its installer automatically adapt to your system language! Supported languages include English, German, Chinese, Hindi, Arabic, Spanish, French, Bengali, Portuguese, Russian, Urdu, Indonesian, Japanese, Turkish, Vietnamese, Korean, and Persian.
-- **Direct Access to Windows Security:** Open the native Windows Security dashboard via a dedicated button for deeper configurations or to view your protection history.
+## ℹ️ Overview
 
-## Installation
+Windows Defender provides robust security, but adding exclusions (like developer tools or safe game modifications) is deeply buried in its menus and often tedious to configure. Defender SafeZone Tool solves this by providing a clean, accessible interface directly on your desktop to quickly manage your Defender rules.
 
-You can find the ready-to-use installer executable in the `Output` folder of this repository:
+### ✍️ Authors
 
-1. Download the installer file: [`Output/DefenderSafeZoneTool_Setup.exe`](Output/DefenderSafeZoneTool_Setup.exe)
-2. Run the executable as an Administrator (required to modify Windows Defender rules).
+Made by [@Thatseasy](https://github.com/Thatseasy).
+
+## 🚀 Usage
+
+Launch the tool from your desktop, select a folder or enter an extension, and click **Add exclusion**!
+
+*(Make sure to run the application as Administrator, as it modifies Windows Defender rules).*
+
+## ⬇️ Installation
+
+1. [**Download the Installer (.exe)**](Output/DefenderSafeZoneTool_Setup.exe) (or get the latest version from the [Releases](https://github.com/Thatseasy/defender-safe-zone/releases) page).
+2. Run the downloaded executable.
 3. Follow the setup instructions. The installer will automatically select your preferred language.
-4. Launch the application from your desktop or start menu!
+4. Launch the application from your desktop!
 
-## How to Build from Source
+## 💭 Feedback and Contributing
 
-To compile the application yourself, you need the **.NET 5.0 SDK** (or newer compatible versions) installed on your machine.
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Thatseasy/defender-safe-zone.git
-   ```
-2. Open a terminal in the project directory and build the application:
-   ```bash
-   dotnet build -c Release
-   ```
-3. To build the Single Installer EXE, you need [Inno Setup 6](https://jrsoftware.org/isinfo.php). Right-click on `setup.iss` and select "Compile", or run via command line:
-   ```bash
-   iscc setup.iss
-   ```
-
-## Requirements
-- Windows 10 or Windows 11
-- Administrator privileges (for setting Defender rules)
-
-## Disclaimer
-Always exercise caution when excluding folders or file types from your antivirus. Only exclude directories you completely trust (such as dedicated development folders). Never exclude your entire `C:\` drive or your `Downloads` folder!
+Encountered a bug or have a feature request? Please open an issue or start a discussion in the [Discussions](https://github.com/Thatseasy/defender-safe-zone/discussions) tab. 
