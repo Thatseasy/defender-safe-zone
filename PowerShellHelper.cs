@@ -11,7 +11,8 @@ namespace DefenderSafeZoneTool
             var startInfo = new ProcessStartInfo
             {
                 FileName = "powershell.exe",
-                Arguments = $"-NoProfile -ExecutionPolicy Bypass -Command \"{script}\"",
+                Arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -Command -",
+                RedirectStandardInput = true,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,
@@ -26,11 +27,26 @@ namespace DefenderSafeZoneTool
                 throw new InvalidOperationException("Konnte PowerShell nicht starten.");
             }
 
-            string output = process.StandardOutput.ReadToEnd();
-            string error = process.StandardError.ReadToEnd();
-            process.WaitForExit();
+            process.StandardInput.WriteLine(script);
+            process.StandardInput.Close();
 
-            return (output, error);
+            var outputBuilder = new StringBuilder();
+            var errorBuilder = new StringBuilder();
+
+            process.OutputDataReceived += (s, e) => { if (e.Data != null) outputBuilder.AppendLine(e.Data); };
+            process.ErrorDataReceived += (s, e) => { if (e.Data != null) errorBuilder.AppendLine(e.Data); };
+
+            process.BeginOutputReadLine();
+            process.BeginErrorReadLine();
+
+            bool exited = process.WaitForExit(30000); // 30 Sekunden Timeout
+            if (!exited)
+            {
+                try { process.Kill(); } catch { /* Ignore if it already exited */ }
+                throw new TimeoutException("Die Ausführung des PowerShell-Befehls hat das Zeitlimit von 30 Sekunden überschritten (Timeout).");
+            }
+
+            return (outputBuilder.ToString().Trim(), errorBuilder.ToString().Trim());
         }
     }
 }

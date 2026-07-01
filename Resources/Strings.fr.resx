@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Outil Defender SafeZone</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Prêt.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>CONSEILS :
+• Utilisez des dossiers cibles dédiés (par exemple C:\Work). N'ajoutez pas de lecteurs entiers ni votre dossier Téléchargements !
+• Les fichiers supprimés accidentellement peuvent être restaurés dans la sécurité Windows sous « Historique de protection ».</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Dossier cible :</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Parcourir le dossier...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>Ajouter une exclusion</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Extensions :</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>Les extensions de fichiers (par exemple .exe, .dll) sont exclues GLOBALEMENT pour l'ensemble du système des analyses Defender, pas seulement dans le dossier cible.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>Ouvrir la sécurité Windows</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Exclusions actuelles</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Supprimer les exclusions sélectionnées</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>Sélectionnez un dossier cible pour les exclusions Defender :</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Exclusion ajoutée avec succès.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>Veuillez d'abord sélectionner les exclusions dans la liste.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Aucune sélection</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>Les exclusions sélectionnées ont été supprimées avec succès.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>Liste d'exclusions actualisée.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>Erreur lors de l'ouverture de la sécurité Windows : {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Chargement des exclusions...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>Erreur de chargement : {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>Aucune exclusion trouvée.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} en cours d'exécution...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>Erreur pendant {0} :
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>Erreur pendant {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>Chemin :</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Extension :</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Ajout</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>Suppression</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Actualisation</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>Au moins un dossier cible ou une extension de fichier doit être spécifié.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>Le chemin '{0}' n'est pas un chemin absolu valide (par exemple C:\Folder).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>Accès refusé lors de la création de '{0}'. Veuillez vérifier vos autorisations.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>Le dossier n'a pas pu être créé ou vérifié : {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>Erreur lors de la récupération des exclusions :
+{0}</value>
+  </data>
+</root>

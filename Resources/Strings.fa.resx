@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Defender SafeZone Tool</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>آماده است.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>نکات:
+• از پوشه های هدف اختصاصی (مانند C:\Work) استفاده کنید. کل درایوها یا پوشه دانلودهای خود را اضافه نکنید!
+• فایل هایی که به طور تصادفی حذف شده اند را می توان در Windows Security در قسمت "Protection history" بازیابی کرد.</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>پوشه هدف:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>مرور پوشه...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>افزودن استثنا</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>پسوندها:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>پسوندهای فایل (به عنوان مثال .exe، .dll) به طور کلی برای کل سیستم از اسکن های Defender حذف می شوند، نه فقط در پوشه هدف.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>باز کردن Windows Security</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Exclusions Current</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Remove Exclusions انتخاب شده</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>انتخاب یک پوشه هدف برای Exclusions Defender:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Exclusion با موفقیت اضافه شد.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>لطفاً ابتدا موارد استثنا را از لیست انتخاب کنید.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>بدون انتخاب</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>استثناهای انتخاب شده با موفقیت حذف شدند.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>لیست استثناها به روز شد.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>خطا در باز کردن امنیت ویندوز: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>در حال بارگیری موارد استثنا...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>خطا در بارگیری: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>هیچ استثنایی یافت نشد.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} در حال اجرا...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>خطا در حین {0}:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>خطا در طول {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>مسیر:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>پسوند:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Refreshing</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>حداقل یک پوشه یا پسوند فایل مورد نظر باید مشخص شود.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>مسیر '{0}' یک مسیر مطلق معتبر نیست (به عنوان مثال C:\Folder).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>هنگام ایجاد "{0}" دسترسی ممنوع شد. لطفا مجوزهای خود را بررسی کنید.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>پوشه ایجاد یا بررسی نشد: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>خطا در واکشی موارد استثنا:
+{0}</value>
+  </data>
+</root>

@@ -9,11 +9,14 @@ namespace DefenderSafeZoneTool
     {
         public static List<string> GetExclusions()
         {
-            var script = @"
+            var pathPrefix = Strings.Get("PathPrefix");
+            var extPrefix = Strings.Get("ExtensionPrefix");
+
+            var script = $@"
 $pref = Get-MpPreference
 $result = @()
-if ($pref.ExclusionPath) { foreach ($p in $pref.ExclusionPath) { $result += ""Pfad: $p"" } }
-if ($pref.ExclusionExtension) { foreach ($e in $pref.ExclusionExtension) { $result += ""Erweiterung: $e"" } }
+if ($pref.ExclusionPath) {{ foreach ($p in $pref.ExclusionPath) {{ $result += ""{pathPrefix}$p"" }} }}
+if ($pref.ExclusionExtension) {{ foreach ($e in $pref.ExclusionExtension) {{ $result += ""{extPrefix}$e"" }} }}
 $result -join [Environment]::NewLine
 ";
             var (output, error) = PowerShellHelper.Execute(script);
@@ -23,7 +26,7 @@ $result -join [Environment]::NewLine
                 // PowerShell schreibt oft "gelbe" Warnings in StdErr, bei echten Fehlern meist mehr Details.
                 if (error.ToLower().Contains("error") || error.ToLower().Contains("ausnahme") || error.ToLower().Contains("verweigert"))
                 {
-                    throw new Exception($"Fehler beim Abrufen der Ausschlüsse:\n{error}");
+                    throw new Exception(Strings.Get("ErrorFetchExclusions", error));
                 }
             }
 
@@ -35,22 +38,44 @@ $result -join [Environment]::NewLine
 
         public static void AddExclusions(string folderPath, IEnumerable<string> extensions)
         {
+            var exts = NormalizeExtensions(extensions);
+
+            if (string.IsNullOrWhiteSpace(folderPath) && !exts.Any())
+            {
+                throw new ArgumentException(Strings.Get("ErrorNoInput"));
+            }
+
             if (!string.IsNullOrWhiteSpace(folderPath))
             {
-                if (!Directory.Exists(folderPath))
+                try
                 {
-                    Directory.CreateDirectory(folderPath);
+                    if (!Path.IsPathRooted(folderPath))
+                    {
+                        throw new ArgumentException(Strings.Get("ErrorInvalidPath", folderPath));
+                    }
+
+                    if (!Directory.Exists(folderPath))
+                    {
+                        Directory.CreateDirectory(folderPath);
+                    }
+                }
+                catch (UnauthorizedAccessException)
+                {
+                    throw new Exception(Strings.Get("ErrorAccessDenied", folderPath));
+                }
+                catch (Exception ex) when (!(ex is ArgumentException))
+                {
+                    throw new Exception(Strings.Get("ErrorCreateFolder", ex.Message));
                 }
 
                 var script = $"Add-MpPreference -ExclusionPath '{folderPath.Replace("'", "''")}'";
                 var (output, error) = PowerShellHelper.Execute(script);
                 if (!string.IsNullOrWhiteSpace(error) && error.ToLower().Contains("error"))
                 {
-                    throw new Exception($"Fehler beim Hinzufügen des Ordners:\n{error}");
+                    throw new Exception(Strings.Get("ErrorAction", Strings.Get("ActionAdd"), error));
                 }
             }
 
-            var exts = NormalizeExtensions(extensions);
             if (exts.Any())
             {
                 var extString = string.Join(",", exts.Select(e => $"'{e.Replace("'", "''")}'"));
@@ -58,16 +83,17 @@ $result -join [Environment]::NewLine
                 var (output, error) = PowerShellHelper.Execute(script);
                 if (!string.IsNullOrWhiteSpace(error) && error.ToLower().Contains("error"))
                 {
-                    throw new Exception($"Fehler beim Hinzufügen der Erweiterungen:\n{error}");
+                    throw new Exception(Strings.Get("ErrorAction", Strings.Get("ActionAdd"), error));
                 }
             }
         }
 
-        public static void RemoveExclusions(string folderPath, IEnumerable<string> extensions)
+        public static void RemoveExclusions(IEnumerable<string> folderPaths, IEnumerable<string> extensions)
         {
-            if (!string.IsNullOrWhiteSpace(folderPath))
+            if (folderPaths != null && folderPaths.Any())
             {
-                var script = $"Remove-MpPreference -ExclusionPath '{folderPath.Replace("'", "''")}' -ErrorAction SilentlyContinue";
+                var pathsString = string.Join(",", folderPaths.Select(p => $"'{p.Replace("'", "''")}'"));
+                var script = $"Remove-MpPreference -ExclusionPath {pathsString} -ErrorAction SilentlyContinue";
                 var (output, error) = PowerShellHelper.Execute(script);
             }
 

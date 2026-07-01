@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>डिफेंडर सेफज़ोन टूल</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>तैयार।</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>संकेत:
+• समर्पित लक्ष्य फ़ोल्डरों का उपयोग करें (जैसे C:\Work)। संपूर्ण ड्राइव या अपना डाउनलोड फ़ोल्डर न जोड़ें!
+• गलती से हटाई गई फ़ाइलों को विंडोज़ सुरक्षा में "प्रोटेक्शन हिस्ट्री" के अंतर्गत पुनर्स्थापित किया जा सकता है।</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>लक्ष्य फ़ोल्डर:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>फ़ोल्डर ब्राउज़ करें...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>बहिष्करण जोड़ें</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>एक्सटेंशन:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>फ़ाइल एक्सटेंशन (जैसे .exe, .dll) को केवल लक्ष्य फ़ोल्डर में ही नहीं, बल्कि पूरे सिस्टम के लिए डिफेंडर स्कैन से वैश्विक स्तर पर बाहर रखा गया है।</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>ताज़ा करें</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>विंडोज सुरक्षा खोलें</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>वर्तमान बहिष्करण</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>चयनित बहिष्करण हटाएं</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>डिफेंडर बहिष्करण के लिए एक लक्ष्य फ़ोल्डर चुनें:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>बहिष्करण सफलतापूर्वक जोड़ा गया।</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>कृपया पहले सूची से बहिष्करण चुनें।</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>कोई चयन नहीं</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>चयनित बहिष्करण सफलतापूर्वक हटा दिए गए।</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>बहिष्करण सूची ताज़ा की गई।</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>विंडोज़ सुरक्षा खोलने में त्रुटि: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>बहिष्करण लोड हो रहा है...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>लोड करने में त्रुटि: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>कोई बहिष्करण नहीं मिला।</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} चल रहा है...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>{0} के दौरान त्रुटि:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>{0} के दौरान त्रुटि।</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>पथ:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>एक्सटेंशन:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>ताज़ा करना</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>कम से कम एक लक्ष्य फ़ोल्डर या फ़ाइल एक्सटेंशन निर्दिष्ट होना चाहिए।</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>पथ '{0}' एक वैध निरपेक्ष पथ नहीं है (जैसे C:\Folder)।</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>'{0}' बनाते समय पहुंच अस्वीकृत कर दी गई। कृपया अपनी अनुमतियाँ जांचें.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>फ़ोल्डर बनाया या जांचा नहीं जा सका: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>बहिष्करण लाने में त्रुटि:
+{0}</value>
+  </data>
+</root>

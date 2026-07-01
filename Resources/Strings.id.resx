@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Alat SafeZone Defender</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Siap.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>PETUNJUK:
+• Gunakan folder target khusus (misalnya C:\Work). Jangan tambahkan seluruh drive atau folder Unduhan Anda!
+• File yang terhapus secara tidak sengaja dapat dipulihkan di Keamanan Windows di bawah "Riwayat perlindungan".</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Folder target:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Telusuri folder...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>Tambahkan pengecualian</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Ekstensi:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>Ekstensi file (misalnya .exe, .dll) dikecualikan SECARA GLOBAL untuk seluruh sistem dari pemindaian Defender, tidak hanya di folder target.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>Buka Keamanan Windows</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Pengecualian Saat Ini</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Hapus pengecualian yang dipilih</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>Pilih folder target untuk pengecualian Defender:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Pengecualian berhasil ditambahkan.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>Silakan pilih pengecualian dari daftar terlebih dahulu.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Tidak ada pilihan</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>Pengecualian yang dipilih berhasil dihapus.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>Daftar pengecualian disegarkan.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>Kesalahan saat membuka Keamanan Windows: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Kesalahan</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Memuat pengecualian...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>Kesalahan saat memuat: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>Tidak ditemukan pengecualian.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} berjalan...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>Kesalahan selama {0}:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>Kesalahan selama {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>Jalur:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Ekstensi:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Menambah</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>Menghapus</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Menyegarkan</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>Setidaknya satu folder target atau ekstensi file harus ditentukan.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>Jalur '{0}' bukan jalur absolut yang valid (misalnya C:\Folder).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>Akses ditolak saat membuat '{0}'. Silakan periksa izin Anda.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>Folder tidak dapat dibuat atau diperiksa: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>Terjadi kesalahan saat mengambil pengecualian:
+{0}</value>
+  </data>
+</root>

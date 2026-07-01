@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ডিফেন্ডার সেফজোন টুল</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>প্রস্তুত।</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>ইঙ্গিত:
+• ডেডিকেটেড টার্গেট ফোল্ডার ব্যবহার করুন (যেমন C:\Work)। সম্পূর্ণ ড্রাইভ বা আপনার ডাউনলোড ফোল্ডার যোগ করবেন না!
+• দুর্ঘটনাক্রমে মুছে ফেলা ফাইলগুলি "সুরক্ষা ইতিহাস" এর অধীনে উইন্ডোজ সিকিউরিটিতে পুনরুদ্ধার করা যেতে পারে।</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>টার্গেট ফোল্ডার:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>ফোল্ডার ব্রাউজ করুন...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>এক্সক্লুশন যোগ করুন</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>এক্সটেনশন:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>ফাইল এক্সটেনশনগুলি (যেমন .exe, .dll) শুধুমাত্র লক্ষ্য ফোল্ডারে নয়, ডিফেন্ডার স্ক্যান থেকে সমগ্র সিস্টেমের জন্য বিশ্বব্যাপী বাদ দেওয়া হয়েছে৷</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>রিফ্রেশ করুন</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>উইন্ডোজ সিকিউরিটি খুলুন</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>বর্তমান এক্সক্লুশনগুলি</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>নির্বাচিত বর্জনগুলি সরান</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>ডিফেন্ডার বর্জনের জন্য একটি লক্ষ্য ফোল্ডার নির্বাচন করুন:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>বর্জন সফলভাবে যোগ করা হয়েছে৷</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>অনুগ্রহ করে প্রথমে তালিকা থেকে বাদ নির্বাচন করুন।</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>কোনো নির্বাচন নেই</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>নির্বাচিত বর্জন সফলভাবে সরানো হয়েছে৷</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>বর্জনের তালিকা রিফ্রেশ করা হয়েছে।</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>উইন্ডোজ নিরাপত্তা খুলতে ত্রুটি: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>ত্রুটি</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>বর্জন লোড হচ্ছে...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>ত্রুটি লোড হচ্ছে: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>কোনো বর্জন পাওয়া যায়নি৷</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} চলছে...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>{0} এর সময় ত্রুটি:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>{0} এর সময় ত্রুটি৷</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>পাথ:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>এক্সটেনশন:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>যোগ করা</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>অপসারণ</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>রিফ্রেশ করা হচ্ছে</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>অন্তত একটি টার্গেট ফোল্ডার বা ফাইল এক্সটেনশন নির্দিষ্ট করা আবশ্যক৷</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>পথ '{0}' একটি বৈধ পরম পথ নয় (যেমন C:\Folder)।</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>'{0}' তৈরি করার সময় অ্যাক্সেস অস্বীকার করা হয়েছে৷ আপনার অনুমতি চেক করুন.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>ফোল্ডারটি তৈরি করা যায়নি বা চেক করা যায়নি: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>বর্জন আনতে ত্রুটি:
+{0}</value>
+  </data>
+</root>

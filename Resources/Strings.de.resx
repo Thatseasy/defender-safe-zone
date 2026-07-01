@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Defender SafeZone Tool</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Bereit.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>HINWEISE:
+â€¢ Nutze dedizierte Zielordner (z.B. C:\Work). FÃ¼ge keine ganzen Laufwerke oder Downloads hinzu!
+â€¢ FÃ¤lschlich gelÃ¶schte Dateien kÃ¶nnen in der Windows-Sicherheit unter "Schutzverlauf" wiederhergestellt werden.</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Zielordner:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Ordner wÃ¤hlen...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>Ausnahme hinzufÃ¼gen</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Erweiterungen:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>Dateitypen (z.B. .exe, .dll) werden GLOBAL fÃ¼r das gesamte System von Defender-Scans ausgeschlossen, nicht nur im Zielordner.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>Windows-Sicherheit Ã¶ffnen</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Aktuelle Ausnahmen</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>AusgewÃ¤hlte Ausnahmen entfernen</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>WÃ¤hle einen Zielordner fÃ¼r Defender-Ausnahmen aus:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Ausnahme erfolgreich hinzugefÃ¼gt.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>Bitte wÃ¤hle zuerst Ausnahmen aus der Liste aus.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Keine Auswahl</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>AusgewÃ¤hlte Ausnahmen erfolgreich entfernt.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>Liste der Ausnahmen aktualisiert.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>Fehler beim Ã–ffnen der Windows-Sicherheit: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Lade Ausnahmen...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>Fehler beim Laden: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>Keine Ausnahmen gefunden.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} lÃ¤uft...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>Fehler beim {0}:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>Fehler beim {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>Pfad: </value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Erweiterung: </value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>HinzufÃ¼gen</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>Es muss mindestens ein Zielordner oder eine Dateierweiterung angegeben werden.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>Der Pfad '{0}' ist kein gÃ¼ltiger absoluter Pfad (z.B. C:\Ordner).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>Zugriff verweigert beim Erstellen von '{0}'. Bitte prÃ¼fe deine Berechtigungen.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>Der Ordner konnte nicht erstellt oder geprÃ¼ft werden: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>Fehler beim Abrufen der Ausnahmen:
+{0}</value>
+  </data>
+</root>

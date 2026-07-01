@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Инструмент Defender SafeZone</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Готов.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>СОВЕТЫ:
+• Используйте выделенные целевые папки (например, C:\Work). Не добавляйте целые диски или папку «Загрузки»!
+• Случайно удаленные файлы можно восстановить в разделе «Безопасность Windows» в разделе «История защиты».</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Целевая папка:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Обзор папки...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>Добавить исключение</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Расширения:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>Расширения файлов (например, .exe, .dll) исключаются ГЛОБАЛЬНО для всей системы из сканирования Защитника, а не только в целевой папке.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>Открыть систему безопасности Windows</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Текущие исключения</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Удалить выбранные исключения</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>Выберите целевую папку для исключений Защитника:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Исключение успешно добавлено.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>Сначала выберите исключения из списка.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Выбор не выбран</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>Выбранные исключения успешно удалены.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>Список исключений обновлен.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>Ошибка при открытии системы безопасности Windows: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Загрузка исключений...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>Ошибка загрузки: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>Исключения не найдены.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} выполняется...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>Ошибка во время {0}:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>Ошибка во время {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>Путь:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Расширение:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Добавление</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>Должна быть указана хотя бы одна целевая папка или расширение файла.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>Путь '{0}' не является допустимым абсолютным путем (например, C:\Folder).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>Доступ запрещен при создании '{0}'. Пожалуйста, проверьте ваши разрешения.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>Не удалось создать или проверить папку: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>Ошибка получения исключений:
+{0}</value>
+  </data>
+</root>

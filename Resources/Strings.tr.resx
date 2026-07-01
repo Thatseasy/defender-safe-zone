@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Defender SafeZone Aracı</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Hazır.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>İPUÇLARI:
+• Özel hedef klasörleri kullanın (örn. C:\Work). Sürücülerin tamamını veya İndirilenler klasörünüzü eklemeyin!
+• Yanlışlıkla silinen dosyalar Windows Güvenliği'nde "Koruma geçmişi" altında geri yüklenebilir.</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>Hedef klasör:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Klasöre göz at...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>Hariç tutma ekle</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>Uzantılar:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>Dosya uzantıları (örn. .exe, .dll), yalnızca hedef klasörde değil, tüm sistem için KÜRESEL OLARAK hariç tutulur.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>Windows Güvenliğini Aç</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>Mevcut Dışlamalar</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>Seçili dışlamaları kaldır</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>Defender dışlamaları için bir hedef klasör seçin:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>Dışlama başarıyla eklendi.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>Lütfen önce listeden hariç tutulanları seçin.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Seçim yok</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>Seçilen hariç tutmalar başarıyla kaldırıldı.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>Dışlama listesi yenilendi.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>Windows Güvenliği açılırken hata oluştu: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Dışlamalar yükleniyor...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>Yükleme hatası: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>Dışlama bulunamadı.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} çalışıyor...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>{0} sırasında hata:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>{0} sırasında hata.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>Yol:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Uzantı:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>Ekleniyor</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>Kaldırılıyor</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>Yenileniyor</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>En az bir hedef klasör veya dosya uzantısı belirtilmelidir.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>'{0}' yolu geçerli bir mutlak yol değil (örn. C:\Klasör).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>'{0}' oluşturulurken erişim reddedildi. Lütfen izinlerinizi kontrol edin.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>Klasör oluşturulamadı veya kontrol edilemedi: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>Hariç tutulanlar getirilirken hata oluştu:
+{0}</value>
+  </data>
+</root>

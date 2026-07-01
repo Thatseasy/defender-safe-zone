@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.17.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>أداة Defender SafeZone</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>جاهزة.</value>
+  </data>
+  <data name="HintsText" xml:space="preserve">
+    <value>تلميحات:
+• استخدم المجلدات المستهدفة المخصصة (مثل C:\Work). لا تقم بإضافة محركات أقراص كاملة أو مجلد التنزيلات الخاص بك!
+• يمكن استعادة الملفات المحذوفة عن طريق الخطأ في Windows Security ضمن "سجل الحماية".</value>
+  </data>
+  <data name="TargetFolder" xml:space="preserve">
+    <value>المجلد الهدف:</value>
+  </data>
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>استعراض المجلد...</value>
+  </data>
+  <data name="AddExclusion" xml:space="preserve">
+    <value>إضافة الاستثناء</value>
+  </data>
+  <data name="Extensions" xml:space="preserve">
+    <value>الامتدادات:</value>
+  </data>
+  <data name="ExtensionsHelp" xml:space="preserve">
+    <value>يتم استبعاد امتدادات الملفات (مثل .exe و.dll) عالميًا للنظام بأكمله من عمليات فحص Defender، وليس فقط في المجلد الهدف.</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="OpenSecurity" xml:space="preserve">
+    <value>فتح أمان Windows</value>
+  </data>
+  <data name="CurrentExclusions" xml:space="preserve">
+    <value>الاستثناءات الحالية</value>
+  </data>
+  <data name="RemoveSelected" xml:space="preserve">
+    <value>إزالة الاستثناءات المحددة</value>
+  </data>
+  <data name="BrowseDialogDesc" xml:space="preserve">
+    <value>حدد مجلدًا هدفًا لاستثناءات Defender:</value>
+  </data>
+  <data name="SuccessAdd" xml:space="preserve">
+    <value>تمت إضافة الاستبعاد بنجاح.</value>
+  </data>
+  <data name="SelectToRemove" xml:space="preserve">
+    <value>الرجاء تحديد الاستثناءات من القائمة أولاً.</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>لا يوجد تحديد</value>
+  </data>
+  <data name="SuccessRemove" xml:space="preserve">
+    <value>تمت إزالة الاستثناءات المحددة بنجاح.</value>
+  </data>
+  <data name="ListRefreshed" xml:space="preserve">
+    <value>تم تحديث قائمة الاستبعاد.</value>
+  </data>
+  <data name="ErrorOpenSecurity" xml:space="preserve">
+    <value>خطأ في فتح أمان Windows: {0}</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>جارٍ تحميل الاستثناءات...</value>
+  </data>
+  <data name="ErrorLoading" xml:space="preserve">
+    <value>خطأ في التحميل: {0}</value>
+  </data>
+  <data name="NoExclusionsFound" xml:space="preserve">
+    <value>لم يتم العثور على استثناءات.</value>
+  </data>
+  <data name="ActionRunning" xml:space="preserve">
+    <value>{0} قيد التشغيل...</value>
+  </data>
+  <data name="ErrorAction" xml:space="preserve">
+    <value>خطأ أثناء {0}:
+{1}</value>
+  </data>
+  <data name="ErrorActionStatus" xml:space="preserve">
+    <value>خطأ أثناء {0}.</value>
+  </data>
+  <data name="PathPrefix" xml:space="preserve">
+    <value>المسار:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>الامتداد:</value>
+  </data>
+  <data name="ActionAdd" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="ActionRemove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="ActionRefresh" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="ErrorNoInput" xml:space="preserve">
+    <value>يجب تحديد مجلد هدف أو امتداد ملف واحد على الأقل.</value>
+  </data>
+  <data name="ErrorInvalidPath" xml:space="preserve">
+    <value>المسار '{0}' ليس مسارًا مطلقًا صالحًا (على سبيل المثال، C:\Folder).</value>
+  </data>
+  <data name="ErrorAccessDenied" xml:space="preserve">
+    <value>تم رفض الوصول عند إنشاء '{0}'. يرجى التحقق من الأذونات الخاصة بك.</value>
+  </data>
+  <data name="ErrorCreateFolder" xml:space="preserve">
+    <value>لا يمكن إنشاء المجلد أو التحقق منه: {0}</value>
+  </data>
+  <data name="ErrorFetchExclusions" xml:space="preserve">
+    <value>حدث خطأ أثناء جلب الاستثناءات:
+{0}</value>
+  </data>
+</root>
