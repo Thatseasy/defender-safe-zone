@@ -38,14 +38,13 @@ namespace DefenderSafeZoneTool
             {
                 Dock = DockStyle.Fill,
                 ColumnCount = 1,
-                RowCount = 5,
+                RowCount = 4,
                 Padding = new Padding(10)
             };
             mainLayout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // Eingabe
             mainLayout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // Buttons
             mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100f)); // Liste
             mainLayout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // Info
-            this.Controls.Add(mainLayout);
 
             // 1. Eingabebereich
             var inputPanel = new TableLayoutPanel
@@ -117,7 +116,11 @@ namespace DefenderSafeZoneTool
             statusStrip = new StatusStrip();
             statusLabel = new ToolStripStatusLabel { Text = "Bereit." };
             statusStrip.Items.Add(statusLabel);
+            
+            // Reihenfolge ist wichtig für DockStyle.Fill vs DockStyle.Bottom
+            this.Controls.Add(mainLayout);
             this.Controls.Add(statusStrip);
+            mainLayout.BringToFront();
 
             this.Load += MainForm_Load;
         }
