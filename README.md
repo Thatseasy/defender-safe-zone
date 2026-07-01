@@ -1,4 +1,4 @@
-# <img src="Logo.png" width="30" /> Defender SafeZone Tool
+# <img src="Logo.png"  /> Defender SafeZone Tool
 
 [![Download Latest Release](https://img.shields.io/github/v/release/Thatseasy/defender-safe-zone?label=Download%20Installer&style=for-the-badge&color=success)](https://github.com/Thatseasy/defender-safe-zone/releases/latest)
 
