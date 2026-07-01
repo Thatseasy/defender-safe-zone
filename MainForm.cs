@@ -120,7 +120,7 @@ namespace DefenderSafeZoneTool
             // Reihenfolge ist wichtig für DockStyle.Fill vs DockStyle.Bottom
             this.Controls.Add(mainLayout);
             this.Controls.Add(statusStrip);
-            mainLayout.BringToFront();
+            mainLayout.SendToBack();
 
             this.Load += MainForm_Load;
         }
