@@ -1,4 +1,4 @@
-﻿[Setup]
+[Setup]
 AppName=Defender SafeZone Tool
 AppVersion=1.0
 AppPublisher=SafeZone
@@ -17,21 +17,21 @@ WizardStyle=modern
 
 Name: "en"; MessagesFile: "compiler:Default.isl"
 Name: "de"; MessagesFile: "compiler:Languages\German.isl"
-Name: "zh"; MessagesFile: "compiler:Default.isl"
-Name: "hi"; MessagesFile: "compiler:Default.isl"
-Name: "ar"; MessagesFile: "compiler:Default.isl"
+Name: "zh"; MessagesFile: "compiler:Default.isl,Languages\zh.isl"
+Name: "hi"; MessagesFile: "compiler:Default.isl,Languages\hi.isl"
+Name: "ar"; MessagesFile: "compiler:Default.isl,Languages\ar.isl"
 Name: "es"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "fr"; MessagesFile: "compiler:Languages\French.isl"
-Name: "bn"; MessagesFile: "compiler:Default.isl"
+Name: "bn"; MessagesFile: "compiler:Default.isl,Languages\bn.isl"
 Name: "pt"; MessagesFile: "compiler:Languages\Portuguese.isl"
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
-Name: "ur"; MessagesFile: "compiler:Default.isl"
-Name: "id"; MessagesFile: "compiler:Default.isl"
+Name: "ur"; MessagesFile: "compiler:Default.isl,Languages\ur.isl"
+Name: "id"; MessagesFile: "compiler:Default.isl,Languages\id.isl"
 Name: "ja"; MessagesFile: "compiler:Languages\Japanese.isl"
 Name: "tr"; MessagesFile: "compiler:Languages\Turkish.isl"
-Name: "vi"; MessagesFile: "compiler:Default.isl"
-Name: "ko"; MessagesFile: "compiler:Default.isl"
-Name: "fa"; MessagesFile: "compiler:Default.isl"
+Name: "vi"; MessagesFile: "compiler:Default.isl,Languages\vi.isl"
+Name: "ko"; MessagesFile: "compiler:Default.isl,Languages\ko.isl"
+Name: "fa"; MessagesFile: "compiler:Default.isl,Languages\fa.isl"
 
 [CustomMessages]
 en.DesktopIcon=Create a desktop shortcut
