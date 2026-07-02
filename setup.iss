@@ -100,3 +100,7 @@ Name: "{autodesktop}\Defender SafeZone Tool"; Filename: "{app}\DefenderSafeZoneT
 
 [Run]
 Filename: "{app}\DefenderSafeZoneTool.exe"; Description: "{cm:RunApp}"; Flags: nowait postinstall skipifsilent
+
+[INI]
+Filename: "{app}\lang.ini"; Section: "Settings"; Key: "Language"; String: "{language}"
+
