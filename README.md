@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Thatseasy/defender-safe-zone/releases/latest">
-    <img src="https://img.shields.io/github/v/release/Thatseasy/defender-safe-zone?label=Download%20Installer&style=for-the-badge&color=success" alt="Download Latest Release" />
+    <img src="https://img.shields.io/badge/Download_Installer-v1.0.0-success?style=for-the-badge" alt="Download Latest Release" />
   </a>
 </p>
 
