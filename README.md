@@ -1,36 +1,54 @@
-# <img src="Logo.png"  /> Defender SafeZone Tool
+# <p align="center"><img src="Logo.png" alt="Logo" width="128" height="128" /><br/>Defender SafeZone Tool</p>
 
-[![Download Latest Release](https://img.shields.io/github/v/release/Thatseasy/defender-safe-zone?label=Download%20Installer&style=for-the-badge&color=success)](https://github.com/Thatseasy/defender-safe-zone/releases/latest)
+<p align="center">
+  <a href="https://github.com/Thatseasy/defender-safe-zone/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Thatseasy/defender-safe-zone?label=Download%20Installer&style=for-the-badge&color=success" alt="Download Latest Release" />
+  </a>
+</p>
 
-> *Easily manage exclusions for Windows Defender without navigating through complex menus.*
+---
 
-## 🌟 Highlights
+## Overview
 
-- **Instant Exclusions:** Quickly exclude entire directories (e.g. `C:\Work`) or file extensions (e.g. `.exe`) from Defender scans.
-- **One-Click Management:** View and remove your current Defender exclusions in a clean list.
-- **16 Languages Supported:** Automatically adapts to your system language (English, German, Chinese, Spanish, etc.).
+<p align="center">
+  <img src="AppShowcase.png" alt="App Showcase" width="600" />
+</p>
 
-## ℹ️ Overview
+Sometimes, Windows Defender stops you from opening folders or files that you know are completely safe (like a game mod or your coding folder). 
 
-Windows Defender provides robust security, but adding exclusions (like developer tools or safe game modifications) is deeply buried in its menus and often tedious to configure. Defender SafeZone Tool solves this by providing a clean, accessible interface directly on your desktop to quickly manage your Defender rules.
+Normally, to tell Windows Defender to ignore them, you have to click through many confusing computer menus. 
 
-### ✍️ Authors
+This tool makes it super simple:
+* **Folders:** Choose a folder, click one button, and Windows Defender will leave it alone.
+* **File types:** Enter a file ending (like `.exe` or `.dll`), and Windows Defender will ignore those files everywhere.
+* **Simple list:** View everything Windows Defender is ignoring in one clean list, and remove them with one click.
 
-Made by [@Thatseasy](https://github.com/Thatseasy).
+---
 
-## 🚀 Usage
+## How to Use
 
-Launch the tool from your desktop, select a folder or enter an extension, and click **Add exclusion**!
+1. Open the tool.
+2. Choose the folder you want to allow, or type in a file ending.
+3. Click **Add exclusion**.
 
-*(Make sure to run the application as Administrator, as it modifies Windows Defender rules).*
+*Note: You must run the application as an Administrator so it has permission to change Windows Defender settings.*
 
-## ⬇️ Installation
+---
+
+## Installation
 
 1. [**Download the Installer (.exe)**](https://github.com/Thatseasy/defender-safe-zone/releases/latest/download/DefenderSafeZoneTool_Setup.exe) (or get the latest version from the [Releases](https://github.com/Thatseasy/defender-safe-zone/releases) page).
-2. Run the downloaded executable.
-3. Follow the setup instructions. The installer will automatically select your preferred language.
-4. Launch the application from your desktop!
+2. Run the downloaded installer.
+3. Launch the application from your desktop!
 
-## 💭 Feedback and Contributing
+---
 
-Encountered a bug or have a feature request? Please open an issue or start a discussion in the [Discussions](https://github.com/Thatseasy/defender-safe-zone/discussions) tab. 
+## Authors
+
+Created by [@Thatseasy](https://github.com/Thatseasy).
+
+---
+
+## Feedback and Contributing
+
+If you find a bug or want to suggest an improvement, please open an issue or start a thread in the [Discussions](https://github.com/Thatseasy/defender-safe-zone/discussions) tab.
