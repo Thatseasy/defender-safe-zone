@@ -1,0 +1,19 @@
+name: Trigger Website Rebuild
+
+on:
+  push:
+    branches: ["main", "master"]
+  release:
+    types: [published]
+
+jobs:
+  ping-website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger EasyTools Build
+        run: |
+          curl -H "Authorization: token ${{ secrets.EASYTOOLS_BUILD_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               -X POST \
+               -d '{"event_type": "update-content"}' \
+               https://api.github.com/repos/Thatseasy/EasyTools/dispatches
