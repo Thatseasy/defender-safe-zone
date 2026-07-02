@@ -125,8 +125,8 @@
   </data>
   <data name="HintsText" xml:space="preserve">
     <value>HINTS:
-â€¢ Use dedicated target folders (e.g. C:\Work). Do not add entire drives or your Downloads folder!
-â€¢ Accidentally deleted files can be restored in Windows Security under "Protection history".</value>
+• Use dedicated target folders (e.g. C:\Work). Do not add entire drives or your Downloads folder!
+• Accidentally deleted files can be restored in Windows Security under "Protection history".</value>
   </data>
   <data name="TargetFolder" xml:space="preserve">
     <value>Target folder:</value>

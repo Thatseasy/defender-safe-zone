@@ -125,56 +125,56 @@
   </data>
   <data name="HintsText" xml:space="preserve">
     <value>HINWEISE:
-â€¢ Nutze dedizierte Zielordner (z.B. C:\Work). FÃ¼ge keine ganzen Laufwerke oder Downloads hinzu!
-â€¢ FÃ¤lschlich gelÃ¶schte Dateien kÃ¶nnen in der Windows-Sicherheit unter "Schutzverlauf" wiederhergestellt werden.</value>
+• Nutze dedizierte Zielordner (z.B. C:\Work). Füge keine ganzen Laufwerke oder Downloads hinzu!
+• Fälschlich gelöschte Dateien können in der Windows-Sicherheit unter "Schutzverlauf" wiederhergestellt werden.</value>
   </data>
   <data name="TargetFolder" xml:space="preserve">
     <value>Zielordner:</value>
   </data>
   <data name="BrowseFolder" xml:space="preserve">
-    <value>Ordner wÃ¤hlen...</value>
+    <value>Ordner wählen...</value>
   </data>
   <data name="AddExclusion" xml:space="preserve">
-    <value>Ausnahme hinzufÃ¼gen</value>
+    <value>Ausnahme hinzufügen</value>
   </data>
   <data name="Extensions" xml:space="preserve">
     <value>Erweiterungen:</value>
   </data>
   <data name="ExtensionsHelp" xml:space="preserve">
-    <value>Dateitypen (z.B. .exe, .dll) werden GLOBAL fÃ¼r das gesamte System von Defender-Scans ausgeschlossen, nicht nur im Zielordner.</value>
+    <value>Dateitypen (z.B. .exe, .dll) werden GLOBAL für das gesamte System von Defender-Scans ausgeschlossen, nicht nur im Zielordner.</value>
   </data>
   <data name="Refresh" xml:space="preserve">
     <value>Aktualisieren</value>
   </data>
   <data name="OpenSecurity" xml:space="preserve">
-    <value>Windows-Sicherheit Ã¶ffnen</value>
+    <value>Windows-Sicherheit öffnen</value>
   </data>
   <data name="CurrentExclusions" xml:space="preserve">
     <value>Aktuelle Ausnahmen</value>
   </data>
   <data name="RemoveSelected" xml:space="preserve">
-    <value>AusgewÃ¤hlte Ausnahmen entfernen</value>
+    <value>Ausgewählte Ausnahmen entfernen</value>
   </data>
   <data name="BrowseDialogDesc" xml:space="preserve">
-    <value>WÃ¤hle einen Zielordner fÃ¼r Defender-Ausnahmen aus:</value>
+    <value>Wähle einen Zielordner für Defender-Ausnahmen aus:</value>
   </data>
   <data name="SuccessAdd" xml:space="preserve">
-    <value>Ausnahme erfolgreich hinzugefÃ¼gt.</value>
+    <value>Ausnahme erfolgreich hinzugefügt.</value>
   </data>
   <data name="SelectToRemove" xml:space="preserve">
-    <value>Bitte wÃ¤hle zuerst Ausnahmen aus der Liste aus.</value>
+    <value>Bitte wähle zuerst Ausnahmen aus der Liste aus.</value>
   </data>
   <data name="NoSelection" xml:space="preserve">
     <value>Keine Auswahl</value>
   </data>
   <data name="SuccessRemove" xml:space="preserve">
-    <value>AusgewÃ¤hlte Ausnahmen erfolgreich entfernt.</value>
+    <value>Ausgewählte Ausnahmen erfolgreich entfernt.</value>
   </data>
   <data name="ListRefreshed" xml:space="preserve">
     <value>Liste der Ausnahmen aktualisiert.</value>
   </data>
   <data name="ErrorOpenSecurity" xml:space="preserve">
-    <value>Fehler beim Ã–ffnen der Windows-Sicherheit: {0}</value>
+    <value>Fehler beim Öffnen der Windows-Sicherheit: {0}</value>
   </data>
   <data name="ErrorTitle" xml:space="preserve">
     <value>Fehler</value>
@@ -189,7 +189,7 @@
     <value>Keine Ausnahmen gefunden.</value>
   </data>
   <data name="ActionRunning" xml:space="preserve">
-    <value>{0} lÃ¤uft...</value>
+    <value>{0} läuft...</value>
   </data>
   <data name="ErrorAction" xml:space="preserve">
     <value>Fehler beim {0}:
@@ -205,7 +205,7 @@
     <value>Erweiterung: </value>
   </data>
   <data name="ActionAdd" xml:space="preserve">
-    <value>HinzufÃ¼gen</value>
+    <value>Hinzufügen</value>
   </data>
   <data name="ActionRemove" xml:space="preserve">
     <value>Entfernen</value>
@@ -217,13 +217,13 @@
     <value>Es muss mindestens ein Zielordner oder eine Dateierweiterung angegeben werden.</value>
   </data>
   <data name="ErrorInvalidPath" xml:space="preserve">
-    <value>Der Pfad '{0}' ist kein gÃ¼ltiger absoluter Pfad (z.B. C:\Ordner).</value>
+    <value>Der Pfad '{0}' ist kein gültiger absoluter Pfad (z.B. C:\Ordner).</value>
   </data>
   <data name="ErrorAccessDenied" xml:space="preserve">
-    <value>Zugriff verweigert beim Erstellen von '{0}'. Bitte prÃ¼fe deine Berechtigungen.</value>
+    <value>Zugriff verweigert beim Erstellen von '{0}'. Bitte prüfe deine Berechtigungen.</value>
   </data>
   <data name="ErrorCreateFolder" xml:space="preserve">
-    <value>Der Ordner konnte nicht erstellt oder geprÃ¼ft werden: {0}</value>
+    <value>Der Ordner konnte nicht erstellt oder geprüft werden: {0}</value>
   </data>
   <data name="ErrorFetchExclusions" xml:space="preserve">
     <value>Fehler beim Abrufen der Ausnahmen:
